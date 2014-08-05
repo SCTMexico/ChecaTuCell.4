@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+    
+    <com.google.android.gms.maps.MapView
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/map" >
+
+       
+
+    </com.google.android.gms.maps.MapView>
+
+        <ImageView
+            android:id="@+id/icon_baja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/icon_media"
+            android:background="@drawable/img_lowsignal_icon" />
+
+        <ImageView
+            android:id="@+id/icon_alta"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/img_highsignal_icon" />
+
+        <ImageView
+            android:id="@+id/icon_media"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/icon_alta"
+            android:background="@drawable/img_mediumsignal_icon" />
+        
+         <Button
+            android:id="@+id/buttonVendorSelector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="Compañía" 
+            android:padding="8dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginBottom="36dp"
+            android:background="@drawable/selector_bg_menu_button"/>
+
+</RelativeLayout>
+
+
+

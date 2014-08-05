@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/img_bg_menu" >
+
+
+    				<ImageView
+    				    android:id="@+id/imageViewDia"
+    				    android:layout_width="wrap_content"
+    				    android:layout_height="wrap_content"
+    				    android:layout_alignParentTop="true"
+    				    android:layout_marginTop="10dp"
+    				    android:layout_centerHorizontal="true"
+    				    android:src="@drawable/img_circle_diadecorte" />
+    				<TextView
+	     		    android:id="@+id/textView"
+	     		    android:layout_width="wrap_content"
+	     		    android:layout_height="wrap_content"
+	     		    android:layout_alignTop="@+id/imageViewDia"
+	     		    android:layout_centerHorizontal="true"
+	     		    android:layout_marginTop="30dp"
+	     		    android:text="27"
+	     		    android:textColor="#ed8a48"
+	     		    android:textSize="75sp"
+	     		    android:textStyle="bold"/>
+    				
+    				<ImageView
+    				    android:id="@+id/imageViewAlarm"
+    				    android:layout_width="wrap_content"
+    				    android:layout_height="wrap_content"
+    				    android:layout_below="@+id/imageViewDia"
+    				    android:layout_centerHorizontal="true"
+    				    android:layout_marginTop="10dp"
+    				    android:src="@drawable/img_alarma_activada" />
+
+    				<ImageView
+    				    android:id="@+id/imageView3"
+    				    android:layout_width="wrap_content"
+    				    android:layout_height="wrap_content"
+    				    android:layout_above="@+id/imageView4"
+    				    android:layout_centerHorizontal="true"
+    				    android:src="@drawable/img_fb_bototexto" />
+
+    				<ImageView
+    				    android:id="@+id/imageView4"
+    				    android:layout_width="wrap_content"
+    				    android:layout_height="wrap_content"
+    				    android:layout_alignParentBottom="true"
+    				    android:layout_centerHorizontal="true"
+    				    android:layout_marginBottom="24dp"
+    				    android:src="@drawable/img_boton_info" />
+
+    				<ImageView
+    				    android:id="@+id/imageViewLimit"
+    				    android:layout_width="wrap_content"
+    				    android:layout_height="wrap_content"
+    				    android:layout_below="@+id/imageViewAlarm"
+    				    android:layout_centerHorizontal="true"
+    				    android:layout_marginTop="10dp"
+    				    android:src="@drawable/img_timefield" />
+
+    				<Button
+    				    android:id="@+id/fblogin"
+    				    android:layout_width="wrap_content"
+    				    android:layout_height="wrap_content"
+    				    android:layout_alignLeft="@+id/imageView3"
+    				    android:layout_alignTop="@+id/imageView3"
+    				    android:text="" 
+    				    android:background="#11ffffff"/>
+
+</RelativeLayout>

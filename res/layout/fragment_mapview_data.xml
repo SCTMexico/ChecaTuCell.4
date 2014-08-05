@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent">
+    
+    <com.google.android.gms.maps.MapView
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/map"/>
+
+        <ImageView
+            android:id="@+id/icon_4g"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/img_icon_4g3g" />
+
+        <ImageView
+            android:id="@+id/icon_h"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/icon_4g"
+            android:background="@drawable/img_icon_h" />
+
+        <ImageView
+            android:id="@+id/icon_e"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/icon_h"
+            android:background="@drawable/img_icon_e" />
+
+        <ImageView
+            android:id="@+id/icon_sin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/icon_e"
+            android:background="@drawable/img_icon_sininternet" />
+        
+        <Button
+            android:id="@+id/buttonVendorSelector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:text="Compañía" 
+            android:padding="8dp"
+            android:layout_marginLeft="6dp"
+            android:layout_marginBottom="36dp"
+            android:background="@drawable/selector_bg_menu_button"/>
+
+</RelativeLayout>

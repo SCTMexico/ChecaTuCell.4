@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<map>
+    <string name="LimitDate">00/30/20XX</string>
+    <long name="LimitData">1048576000</long>
+    <long name="LastData">000000</long>
+    <long name="CheckUpRate">00000</long>
+    <long name="FacebookLogin">00000</long>
+    <long name="ActiveDataAlarm">00000</long>
+    <long name="ActiveTelephonAlarm">00000</long>
+    <long name="ConfigDataFlag">0</long>
+    
+    
+    
+</map>

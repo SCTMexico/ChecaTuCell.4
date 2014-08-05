@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/menunuttons_layout_data"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buttons_layout"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="28dp"
+        android:paddingTop="28dp"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:orientation="vertical" 
+        >
+
+        <RelativeLayout
+            android:id="@+id/button_layout_data1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/selector_bg_menu_button"
+            android:clickable="true"
+            android:layout_weight="25"
+            android:orientation="horizontal" >
+
+            <ImageView
+                android:id="@+id/icon1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/img_intensity_button_icon" />
+
+            <ImageView
+                android:id="@+id/disclosure1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/img_menu_buttons_disclosure" />
+
+            <TextView
+                android:id="@+id/text1D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/icon1"
+                android:text="Tipos de señal"
+                android:textColor="#5b5b5b" />
+            
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/button_layout_data2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_layout1"
+            android:background="@drawable/selector_bg_menu_button"
+            android:clickable="true"
+            android:layout_weight="25"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/text2D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/disclosure2"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/icon2"
+                android:text="Control de datos"
+                android:textColor="#5b5b5b" />
+
+            <ImageView
+                android:id="@+id/icon2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="20dp"
+                android:src="@drawable/img_minutes_button_icon" />
+
+            <ImageView
+                android:id="@+id/disclosure2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/img_menu_buttons_disclosure" />
+            
+        </RelativeLayout>
+        
+
+        <RelativeLayout
+            android:id="@+id/button_layout_data3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_layout2"
+            android:background="@drawable/selector_bg_menu_button"
+            android:clickable="true"
+            android:layout_weight="25"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/text3D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/disclosure3"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/icon3"
+                android:text="Reporte de calidad"
+                android:textColor="#5b5b5b" />
+
+            <ImageView
+                android:id="@+id/icon3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="24dp"
+                android:src="@drawable/img_report_button_icon" />
+
+            <ImageView
+                android:id="@+id/disclosure3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/img_menu_buttons_disclosure" />
+            
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/button_layout_data4"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/button_layout3"
+            android:background="@drawable/selector_bg_menu_button"
+            android:clickable="true"
+            android:layout_weight="25"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/text4D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/disclosure4"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/icon4"
+                android:text="Configuración"
+                android:textColor="#5b5b5b" />
+
+            <ImageView
+                android:id="@+id/icon4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="23dp"
+                android:src="@drawable/img_config_button_icon" />
+
+            <ImageView
+                android:id="@+id/disclosure4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="20dp"
+                android:src="@drawable/img_menu_buttons_disclosure" />
+            
+        </RelativeLayout>
+        
+    </LinearLayout>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    					  android:id="@+id/tab2"
+						  android:orientation="vertical"
+						  android:layout_width="match_parent"
+						  android:layout_height="match_parent" 
+						  android:background="@drawable/img_bg_menu">
+
+	     		<ImageView
+	     		    android:id="@+id/imageViewAnimated"
+	     		    android:layout_width="167dp"
+	     		    android:layout_height="167dp"
+	     		    android:layout_alignTop="@+id/imageView"
+	     		    android:layout_centerHorizontal="true"
+	     		    />
+
+	     		<ImageView
+	     		    android:id="@+id/imageView"
+	     		    android:layout_width="wrap_content"
+	     		    android:layout_height="wrap_content"
+	     		    android:layout_centerHorizontal="true"
+	     		    android:layout_alignParentBottom="true"
+	     		    android:layout_marginBottom="30dp"
+	     		    android:src="@drawable/img_contador_velocidadprom" />
+
+	     		<TextView
+	     		    android:id="@+id/textViewSpeed"
+	     		    android:layout_width="wrap_content"
+	     		    android:layout_height="wrap_content"
+	     		    android:layout_alignTop="@+id/imageView"
+	     		    android:layout_centerHorizontal="true"
+	     		    android:layout_marginTop="35dp"
+	     		    android:text="12mb"
+	     		    android:textColor="#ed8a48"
+	     		    android:textSize="50sp"
+	     		    android:textStyle="bold" />
+	     		
+	     		<ImageView
+	     		    android:id="@+id/imageViewHSPA"
+	     		    android:layout_width="wrap_content"
+	     		    android:layout_height="wrap_content"
+	     		    android:layout_above="@+id/imageViewEDGE"
+	     		    android:layout_marginBottom="20dp"
+					android:layout_alignParentLeft="true"
+	     		    android:layout_marginLeft="10dp"	     		    
+	     		    android:layout_centerVertical="true"
+	     		    android:src="@drawable/img_hspa_barra" />
+	     		
+	     		<LinearLayout 
+	     		    android:id="@+id/chartRectangleHSPA"
+	     		    android:layout_width="wrap_content"
+	     		    android:layout_height="wrap_content"
+	     		    android:layout_alignTop="@+id/imageViewHSPA"
+	     		    android:layout_marginTop="22dp"	
+	     		    android:layout_marginLeft="15dp"
+	     		    android:orientation="horizontal"	     		    
+	     		    android:background="@drawable/shape_bg_chart_rectangle"     		    
+	     		    />
+	     		       
+	     		<TextView
+	     		    android:id="@+id/textViewHSPA"
+	     		    android:layout_width="wrap_content"
+	     		    android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+	     		    android:layout_alignTop="@+id/imageViewHSPA"
+	     		    android:layout_marginTop="10dp"
+	     		    android:layout_marginRight="10dp"
+	     		    android:text="67%"
+	     		    android:textColor="#ed8a48"
+	     		    android:textSize="40sp"
+	     		    android:textStyle="bold" />
+
+	     		<ImageView
+	     		    android:id="@+id/imageViewEDGE"
+	     		    android:layout_width="wrap_content"
+	     		    android:layout_height="wrap_content"
+	     		    android:layout_above="@+id/imageViewAnimated"
+	     		    android:layout_alignParentLeft="true"
+	     		    android:layout_marginLeft="10dp"
+	     		    android:layout_marginBottom="40dp"
+	     		    android:src="@drawable/img_edge_barra" />
+	     		<LinearLayout 
+	     		    android:id="@+id/chartRectangleEDGE"
+	     		    android:layout_width="wrap_content"
+	     		    android:layout_height="wrap_content"
+	     		    android:layout_alignTop="@+id/imageViewEDGE"
+	     		    android:layout_marginTop="22dp"	
+	     		    android:layout_marginLeft="15dp"
+	     		    android:orientation="horizontal"	     		    
+	     		    android:background="@drawable/shape_bg_chart_rectangle"     		    
+	     		    />
+	     		<TextView
+	     		    android:id="@+id/textViewEdge"
+	     		    android:layout_width="wrap_content"
+	     		    android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+	     		    android:layout_alignTop="@+id/imageViewEDGE"
+	     		    android:layout_marginTop="10dp"
+	     		    android:layout_marginRight="10dp"
+	     		    android:text="12%"
+	     		    android:textColor="#ed8a48"
+	     		    android:textSize="40sp"
+	     		    android:textStyle="bold" />
+
+	     		<ImageView
+	     		    android:id="@+id/imageView4G"
+	     		    android:layout_width="wrap_content"
+	     		    android:layout_height="wrap_content"
+	     		    android:layout_above="@+id/imageViewHSPA"
+	     		    android:layout_alignParentLeft="true"
+	     		    android:layout_marginBottom="20dp"
+	     		    android:layout_marginLeft="10dp"
+	     		    android:src="@drawable/img_4g3g_barra" />
+	     		<LinearLayout 
+	     		    android:id="@+id/chartRectangle4G"
+	     		    android:layout_width="wrap_content"
+	     		    android:layout_height="wrap_content"
+	     		    android:layout_alignTop="@+id/imageView4G"
+	     		    android:layout_marginTop="22dp"	
+	     		    android:layout_marginLeft="15dp"
+	     		    android:orientation="horizontal"	     		    
+	     		    android:background="@drawable/shape_bg_chart_rectangle"     		    
+	     		    />
+	     		<TextView
+	     		    android:id="@+id/textView4G"
+	     		    android:layout_width="wrap_content"
+	     		    android:layout_height="wrap_content"
+					android:layout_alignParentRight="true"
+	     		    android:layout_alignTop="@+id/imageView4G"
+	     		    android:layout_marginTop="10dp"
+	     		    android:layout_marginRight="10dp"
+	     		    android:text="31%"
+	     		    android:textColor="#ed8a48"
+	     		    android:textSize="40sp"
+	     		    android:textStyle="bold" />
+
+	     		<TextView
+	     		    android:id="@+id/TextView01"
+	     		    android:layout_width="wrap_content"
+	     		    android:layout_height="wrap_content"
+	     		    android:layout_alignParentTop="true"
+	     		    android:layout_centerHorizontal="true"
+	     		    android:layout_marginTop="10dp"
+	     		    android:text="Tipo de Señal"
+	     		    android:textColor="#595959"
+	     		    android:textSize="20sp"
+	     		     />
+	     		
+			</RelativeLayout>

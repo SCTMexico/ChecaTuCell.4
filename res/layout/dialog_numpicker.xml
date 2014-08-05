@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="193dp"
+    android:layout_height="match_parent" >
+
+    <NumberPicker
+        android:id="@+id/numberPicker1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/acceptbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/numberPicker1"
+        android:text="    Aceptar    " 
+        android:background="@drawable/selector_bg_menu_button"/>
+
+    <Button
+        android:id="@+id/cancelbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/acceptbutton"
+        android:layout_alignBottom="@+id/acceptbutton"
+        android:layout_toRightOf="@+id/acceptbutton"
+        android:text="   Cancelar   "
+        android:background="@drawable/selector_bg_menu_button"/>
+        
+
+</RelativeLayout>
